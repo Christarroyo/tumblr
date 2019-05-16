@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5E664036228DEB6800D03DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E664035228DEB6800D03DEB /* AppDelegate.swift */; };
-		5E664038228DEB6800D03DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E664037228DEB6800D03DEB /* ViewController.swift */; };
 		5E66403B228DEB6800D03DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E664039228DEB6800D03DEB /* Main.storyboard */; };
 		5E66403D228DEB6900D03DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E66403C228DEB6900D03DEB /* Assets.xcassets */; };
 		5E664040228DEB6900D03DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E66403E228DEB6900D03DEB /* LaunchScreen.storyboard */; };
 		5E66404B228DEB6900D03DEB /* tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66404A228DEB6900D03DEB /* tumblrTests.swift */; };
 		5E664056228DEB6A00D03DEB /* tumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E664055228DEB6A00D03DEB /* tumblrUITests.swift */; };
+		5E664064228DEBCF00D03DEB /* PhotosViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E664063228DEBCF00D03DEB /* PhotosViewControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		5E664032228DEB6800D03DEB /* tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E664035228DEB6800D03DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E664037228DEB6800D03DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E66403A228DEB6800D03DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E66403C228DEB6900D03DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E66403F228DEB6900D03DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		5E664051228DEB6A00D03DEB /* tumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E664055228DEB6A00D03DEB /* tumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumblrUITests.swift; sourceTree = "<group>"; };
 		5E664057228DEB6A00D03DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E664063228DEBCF00D03DEB /* PhotosViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				5E664035228DEB6800D03DEB /* AppDelegate.swift */,
-				5E664037228DEB6800D03DEB /* ViewController.swift */,
 				5E664039228DEB6800D03DEB /* Main.storyboard */,
 				5E66403C228DEB6900D03DEB /* Assets.xcassets */,
 				5E66403E228DEB6900D03DEB /* LaunchScreen.storyboard */,
 				5E664041228DEB6900D03DEB /* Info.plist */,
+				5E664063228DEBCF00D03DEB /* PhotosViewControllerViewController.swift */,
 			);
 			path = tumblr;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E664038228DEB6800D03DEB /* ViewController.swift in Sources */,
+				5E664064228DEBCF00D03DEB /* PhotosViewControllerViewController.swift in Sources */,
 				5E664036228DEB6800D03DEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
